@@ -9,8 +9,8 @@ body {
 }
 
 .model {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
 }
 
 .content {
@@ -68,3 +68,12 @@ body {
     text-decoration: none;
     color: #fff;
     background-color: #FFB61D;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    width: 90%;
+    margin: auto auto 50px auto;
+}
