@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: relative;
+    background-image: url("../images/home.svg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right bottom;
+}
+
+.nagovor {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-20%,-30%);
+    max-width: 40%;
+    font-size: 2rem;
+    color: #FFB61D;
+    line-height: 3.2rem;
+}
+
+.pozdrav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #000;
+    line-height: 2rem;
+}
+
+.scroll-down {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    text-emphasis: none;
+    text-decoration: none;
+    color: #FFB61D;
+    border-color: #FFB61D;
+}
+
+.scroll-down:hover {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    text-emphasis: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FFB61D;
+}
+@media only screen and (max-width: 768px) {
+    .nagovor {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-20%,-20%);
+        max-width: 90%;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .pozdrav {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    
+    .scroll-down {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 0.8rem;
+        border: 1px solid;
+        border-radius: 2rem;
+        padding: 0.5rem 1rem;
+        text-emphasis: none;
+        text-decoration: none;
+        color: #000;
+    }
+
+    #main {
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        background-color: #fff;
+        position: relative;
+        background-image: url("../images/home.svg");
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: right bottom;
+    }
+}
+
+#izbira {
+    height: 100vh;
+}
